@@ -1,4 +1,4 @@
-#include "Inc-dll.hpp"
+#include "../include/Inc-dll.hpp"
 
 void __signal_initialize(__signal * nSignal)
 {

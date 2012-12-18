@@ -228,6 +228,30 @@
 		<Filter
 			Name="Xml"
 			>
+			<File
+				RelativePath=".\rapidxml.hpp"
+				>
+			</File>
+			<File
+				RelativePath=".\rapidxml_iterators.hpp"
+				>
+			</File>
+			<File
+				RelativePath=".\rapidxml_print.hpp"
+				>
+			</File>
+			<File
+				RelativePath=".\rapidxml_utils.hpp"
+				>
+			</File>
+			<File
+				RelativePath=".\XmlReader.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\XmlReader.hpp"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="convert"
@@ -262,6 +286,18 @@
 			</File>
 			<File
 				RelativePath="..\include\IString.hpp"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Platform"
+			>
+			<File
+				RelativePath=".\Platform.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\include\Platform.hpp"
 				>
 			</File>
 		</Filter>

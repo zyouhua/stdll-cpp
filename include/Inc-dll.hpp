@@ -46,7 +46,14 @@ typedef unsigned __int64 __u64;
 #include "_convert.hpp"
 #include "__signal-.hpp"
 #include "__signal.hpp"
+#include "IString-.hpp"
 #include "IString.hpp"
+#include "SerializeIO_ .hpp"
+#include "SerializeType_.hpp"
+#include "IStream-.h"
+#include "IStream.h"
+#include "ISerialize-.h"
+#include "ISerialize.h"
 
 using namespace std;
 using namespace boost;

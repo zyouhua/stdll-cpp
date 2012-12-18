@@ -23,10 +23,8 @@ namespace std {
 		virtual void _serialize(__i64& nValue, const wchar_t * nName, __i64 nOptimal = 0) = 0;
 		//__u64
 		virtual void _serialize(__u64& nValue, const wchar_t * nName, __u64 nOptimal = 0) = 0;
-		//wstring
-		virtual void _serialize(wstring& nValue, const wchar_t * nName, const wchar_t * nOptimal = L"") = 0;
-		//string
-		virtual void _serialize(string& nValue, const wchar_t * nName, const char * nOptimal = "") = 0;
+		//IString
+		virtual void _serialize(IString& nValue, const wchar_t * nName, const wchar_t * nOptimal = L"") = 0;
 		//__float
 		virtual void _serialize(float& nValue, const wchar_t * nName, float nOptimal = 0.f) = 0;
 		//__double

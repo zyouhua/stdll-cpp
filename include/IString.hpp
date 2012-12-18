@@ -6,6 +6,7 @@
 
 struct IString
 {
+	_setStringValue_t mSetValue;
 	_setString_t mUninitialized;
 	void * mString;
 }__pack;
